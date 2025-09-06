@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+AI Resume Analyzer is a full-stack web application that compares resumes against job descriptions and highlights matched vs missing skills.
+It helps job seekers identify skill gaps and recruiters quickly screen candidates.
 
-## Getting Started
+Live Demo: (https://ai-resume-frontend-delta.vercel.app/)
 
-First, run the development server:
+🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Upload a resume (PDF/DOCX) for analysis
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Enter a job description or required skills
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Get a report showing:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✅ Matched Skills
 
-## Learn More
+❌ Missing Skills
 
-To learn more about Next.js, take a look at the following resources:
+Built with Azure AI Services for resume parsing and skill extraction
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Deployed using Docker, Azure, and Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🛠 Tech Stack
 
-## Deploy on Vercel
+Frontend: Next.js, React, Tailwind CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Backend: Spring Boot (Java)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+AI Services: Azure AI Service
+
+Database: PostgreSQL / SQLite
+
+Deployment: Docker, Azure, Vercel
+
+## Live App
+
+<img width="1854" height="964" alt="image" src="https://github.com/user-attachments/assets/5abd00ec-8c3e-4bf6-a00f-d78292041a22" />
+<img width="1602" height="797" alt="image" src="https://github.com/user-attachments/assets/dc7b5cd9-5936-48a3-b034-e8adf6987371" />
+
